@@ -4,7 +4,7 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0-23/4 * * *"
+    - cron: "0 0-23/3 * * *"
   push:
     branches:
       - master
@@ -24,12 +24,11 @@ jobs:
           committer_token: ${{ secrets.ACCESS_TOKEN }}
           base: header
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_languages_ignored: tex, less, makefile, qmake, lex, cmake, shell, gnuplot, scala
           plugin_languages_details: lines, percentage
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
-          plugin_languages_limit: 2
           plugin_achievements: yes
           plugin_habits: yes
           plugin_licenses: yes
