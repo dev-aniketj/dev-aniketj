@@ -31,6 +31,11 @@ jobs:
           plugin_languages_indepth: yes
           plugin_achievements: yes
           plugin_habits: yes
+          plugin_lines: yes
+          plugin_stargazers: yes
+          followup: yes
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
           config_order: base.header, isocalendar, languages, activity, reactions
           
 
