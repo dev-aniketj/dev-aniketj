@@ -31,13 +31,6 @@ jobs:
           plugin_languages_indepth: yes
           plugin_achievements: yes
           plugin_habits: yes
-          plugin_licenses: yes
-          plugin_reactions: yes
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_issues: 100
-          plugin_reactions_days: 14
-          plugin_reactions_details: count, percentage
-          plugin_reactions_ignored: bot
           config_order: base.header, isocalendar, languages, activity, reactions
           
 
