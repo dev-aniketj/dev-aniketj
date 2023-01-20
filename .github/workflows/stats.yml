@@ -4,7 +4,7 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0-23/3 * * *"
+    - cron: "0 0-23/2 * * *"
   push:
     branches:
       - master
@@ -24,11 +24,9 @@ jobs:
           committer_token: ${{ secrets.ACCESS_TOKEN }}
           base: header
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_details: lines, percentage
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_indepth: yes
           plugin_achievements: yes
           plugin_habits: yes
           plugin_lines: yes
