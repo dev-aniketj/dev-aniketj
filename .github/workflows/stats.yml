@@ -22,6 +22,7 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.ACCESS_TOKEN }}
+          
           base: header, repositories
           
           plugin_isocalendar: yes
@@ -43,6 +44,7 @@ jobs:
           
           plugin_followup: yes
           plugin_followup_indepth: yes
+          plugin_followup_sections: user
           
           plugin_projects: yes
           
@@ -55,6 +57,10 @@ jobs:
           plugin_calendar_limit: 0
         
           plugin_activity: yes
+          
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
           
           config_order: base.header, isocalendar, languages, activity, reactions
           
