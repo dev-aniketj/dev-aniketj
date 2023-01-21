@@ -50,9 +50,6 @@ jobs:
           
           plugin_stargazers: yes
           
-          plugin_contributors: yes
-          plugin_contributors_contributions: yes
-          
           plugin_calendar: yes
           plugin_calendar_limit: 0
         
@@ -61,6 +58,15 @@ jobs:
           plugin_notable: yes
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
+          
+          plugin_contributors: yes
+          plugin_contributors_sections: categories
+          plugin_contributors_categories: |
+            {
+            "🧩 Plugins / 🖼️ templates":["source/plugins/**", "source/templates/**"],
+            "📚 Documentation":["README.md", "**/README.md", "**/metadata.yml"],
+            "💻 Code (other)":["source/**", "Dockerfile"]
+            }
           
           config_order: base.header, isocalendar, languages, activity, reactions
           
