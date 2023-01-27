@@ -39,6 +39,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
+          plugin_habits_from: 1000
           
           plugin_lines: yes
           
