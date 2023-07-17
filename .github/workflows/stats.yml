@@ -20,7 +20,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           committer_token: ${{ secrets.ACCESS_TOKEN }}
           
           base: header, repositories
