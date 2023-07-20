@@ -42,33 +42,33 @@ jobs:
 #           plugin_habits_from: 1000
 #           plugin_habits_days: 30
           
-          plugin_lines: yes
+#           plugin_lines: yes
           
-          plugin_followup: yes
-          plugin_followup_indepth: yes
-          plugin_followup_sections: user
+#           plugin_followup: yes
+#           plugin_followup_indepth: yes
+#           plugin_followup_sections: user
           
-          plugin_projects: yes
+#           plugin_projects: yes
           
-          plugin_stargazers: yes
+#           plugin_stargazers: yes
           
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
+#           plugin_calendar: yes
+#           plugin_calendar_limit: 0
         
 #           plugin_activity: yes
           
-          plugin_notable: yes
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
+#           plugin_notable: yes
+#           plugin_notable_indepth: yes
+#           plugin_notable_repositories: yes
           
-          plugin_contributors: yes
-          plugin_contributors_sections: categories
-          plugin_contributors_categories: |
-            {
-            "🧩 Plugins / 🖼️ templates":["source/plugins/**", "source/templates/**"],
-            "📚 Documentation":["README.md", "**/README.md", "**/metadata.yml"],
-            "💻 Code (other)":["source/**", "Dockerfile"]
-            }
+#           plugin_contributors: yes
+#           plugin_contributors_sections: categories
+#           plugin_contributors_categories: |
+#             {
+#             "🧩 Plugins / 🖼️ templates":["source/plugins/**", "source/templates/**"],
+#             "📚 Documentation":["README.md", "**/README.md", "**/metadata.yml"],
+#             "💻 Code (other)":["source/**", "Dockerfile"]
+#             }
           
-          config_order: base.header, isocalendar, languages, activity, reactions
+#           config_order: base.header, isocalendar, languages, activity, reactions
           
