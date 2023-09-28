@@ -1,10 +1,10 @@
 # See https://github.com/lowlighter/metrics for documentation
-# This worflow is scheduled for every hour, and also run after each commit (GitHub action excluded) on master/main branch
+# This workflow is scheduled for every hour, and also runs after each commit (GitHub action excluded) on master/main branch
 
 name: Metrics
 on:
   schedule:
-    - cron: "0 0-23/6 * * *"
+    - cron: "0 0-23/3 * * *"
   push:
     branches:
       - master
