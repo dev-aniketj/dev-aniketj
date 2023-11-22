@@ -243,7 +243,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 523kb of code in 111 edited files across 192 commits over last 14 days</small>
+                <small>estimation from 532kb of code in 111 edited files across 192 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -1347,7 +1347,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="183.00333333333336 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="183.10666666666665 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -1369,7 +1369,7 @@
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 2771 times</div>
+                                <div class="text">Repositories have been deployed 2772 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -1749,7 +1749,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 283k out of 67.9m repositories</span>
+                                    <span class="gh">ranked 283k out of 58m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 43 times</div>
                             </div>
@@ -1828,7 +1828,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 313k out of 67.9m repositories</span>
+                                    <span class="gh">ranked 313k out of 58m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 108 stars</div>
                             </div>
