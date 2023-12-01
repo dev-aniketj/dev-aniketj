@@ -4,7 +4,7 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0-23/3 * * *"
+    - cron: "0 0-23/11 * * *"
   push:
     branches:
       - master
