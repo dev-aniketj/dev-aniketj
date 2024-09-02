@@ -1,4 +1,4 @@
-## I am one of the [Top 10 Contributors](https://committers.top/india) on GitHub from India.
+## I am one of the [Top 100 Contributors](https://committers.top/india) on GitHub from India.
 ## All of my applications are available on the [Play Store](https://play.google.com/store/apps/dev?id=8788999160422104385).
 
 
