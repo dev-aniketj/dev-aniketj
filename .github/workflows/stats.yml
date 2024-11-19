@@ -3,25 +3,23 @@
 
 name: Metrics
 on:
-  schedule:
-    - cron: "0 0 * * *"
-  push:
-    branches:
-      - master
-      - main
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 jobs:
-  github-metrics-personal:
+  github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
     steps:
-
-      - name: Metrics
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg
           token: ${{ secrets.ACCESS_TOKEN }}
-          committer_token: ${{ secrets.ACCESS_TOKEN }}
           
           base: header, repositories
           
