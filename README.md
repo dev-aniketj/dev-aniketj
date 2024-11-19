@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/Javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"
       alt="javascript"/>
 </a>
-![](./metrics.svg)
+![](./github-metrics.svg)
 
 
 
