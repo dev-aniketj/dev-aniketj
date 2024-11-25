@@ -35,7 +35,7 @@ jobs:
           plugin_achievements_display: detailed
 
           plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
   
 #           plugin_habits: yes
